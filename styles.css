@@ -1,0 +1,25 @@
+body{
+   margin: 0;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    flex-direction: row;
+    padding: 10px;
+   
+}
+
+ul li {
+    list-style: none;
+   
+}
