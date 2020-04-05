@@ -1,24 +1,170 @@
 body{
    margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo{
     text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 10px;
 }
 
 .navbar{
-    display: flex;
-    padding: 10px;
-   
+    display:flex; 
+    align-items: center;  
+    width: 100%;
+    border-bottom: 3px solid lightgrey;
+    padding: 10px 0;
 }
 
 ul li a{
     text-decoration: none;
-   padding: 10px;
+    padding: 10px;
+    color:rgb(0, 0, 0);
+}
+
+.navbar ul{
     display: flex;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 ul li {
     list-style: none;
+    flex-direction: row;
     display: flex;
+    margin: 0 10px;
+}
+
+.profile-menu{
+    display: flex;
+    margin-left: auto;
+}
+
+.profile{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(238, 223, 200);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.border{
+    border-bottom: 5px solid grey;
+}
+
+button{
+    height: 0;
+    margin-top: 10px;
+    border: 0;
+}
+
+.fa-search{
+    font-size: 14px;
+}
+
+.product{
+    display: flex;
+    border-bottom: 3px solid lightgrey;
+}
+.product-image{
+    flex:1 1 auto;
+}
+
+.product-hero-image{
+    flex: 3 1 auto;
+}
+
+.product-details{
+    flex: 3 1 auto;
+    padding: 30px;
+}
+
+.box{
+    flex: 1 1 auto;
+    padding: 20px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.choose-size{
+    display: flex;
+}
+.size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    width: 30px;
+    height: 30px;  
+}
+
+table{
+    border: 1px solid black;
+}
+
+.add-btn{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+}
+
+.more-details{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    border-bottom: 3px solid lightgrey;
+}
+
+.brand{
+    padding: 20px;
+}
+
+.materials{
+    padding: 20px;
+}
+
+.customer-reviews{
+    padding: 20px;
+    border-bottom: 3px solid lightgrey;
+}
+
+.designer{
+    display: flex;
+}
+
+.photo{
+    flex:1 1 auto;
+    padding: 30px;
+}
+
+.designer-profile{
+    flex:1 1 auto;
+    border-right: 3px solid lightgrey;
+    padding: 30px;
+}
+
+.testimonial{
+    flex:3 1 auto;
+    padding: 30px;
+}
+
+.customer{
+    background-color: lightpink;
+    padding: 30px;
+    border-radius: 5px;
 }
