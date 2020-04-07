@@ -142,11 +142,18 @@ table{
     padding: 20px;
     border-bottom: 3px solid lightgrey;
 }
+.time{
+    color: grey;
+    font-style: italic;;
+}
 
 .designer{
     display: flex;
 }
 
+.profile-bio{
+    color: grey;
+}
 .photo{
     flex:1 1 auto;
     padding: 30px;
@@ -167,4 +174,8 @@ table{
     background-color: lightpink;
     padding: 30px;
     border-radius: 5px;
+}
+
+.fa-star{
+    color:yellow;
 }
