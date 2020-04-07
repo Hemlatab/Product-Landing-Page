@@ -72,6 +72,10 @@ button{
     font-size: 14px;
 }
 
+.title{
+    color: grey;
+}
+
 .product{
     display: flex;
     border-bottom: 3px solid lightgrey;
@@ -94,6 +98,11 @@ button{
     padding: 20px;
 }
 
+table{
+    font-weight: bold;
+    padding: 10px;
+}
+
 .image{
     display: flex;
     flex-direction: column;
@@ -101,6 +110,7 @@ button{
 }
 .choose-size{
     display: flex;
+    padding-left: 0;
 }
 .size {
     display: flex;
@@ -178,4 +188,9 @@ table{
 
 .fa-star{
     color:yellow;
+}
+
+#quantity{
+    width: 80%;
+    height: 20px;
 }
