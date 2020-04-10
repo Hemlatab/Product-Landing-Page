@@ -180,6 +180,12 @@ table{
     padding: 30px;
 }
 
+.testimonial p{
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+}
+
 .customer{
     background-color: lightpink;
     padding: 10px;
